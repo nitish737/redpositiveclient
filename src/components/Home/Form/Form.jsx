@@ -60,6 +60,9 @@ const Form = () => {
             </button>
         </div>
       </div>
+      <h2>
+        *** fill with caution. This info will be visible to everyone using this site in the table page if not deleted
+      </h2>
     </>
   );
 };
