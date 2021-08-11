@@ -16,7 +16,7 @@ const Table = () => {
   const history = useHistory() ;
 
   const deleteRecord = async (email) => {
-    const sendRequest = await fetch (`https://redpositivebackend.herokuapp.com/${email}`) ; 
+    const sendRequest = await fetch (`https://redpositivebackend.herokuapp.com/api/delete-data/${email}`) ; 
     const result = await sendRequest ;
     const message = await sendRequest.json() ;
     if(result.status == 400){
