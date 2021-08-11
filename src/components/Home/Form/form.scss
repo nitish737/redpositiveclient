@@ -1,0 +1,40 @@
+.form {
+    h1{
+        color : #666;
+        text-align: center;
+    }
+  &__inputs {
+    width: 80%;
+    margin: auto;
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 1rem 0;
+      border: solid 1px #aaa;
+      border-radius: 3px;
+      &:focus {
+        outline: none;
+        border: solid 1px transparent;
+        box-shadow: 0 0 10px 0px #4169e1;
+        border-radius: 5px;
+      }
+    }
+  }
+  &__save-btn {
+      width: 80%;
+      margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    button{
+        all : unset ;
+        padding: 0.7rem 1.5rem;
+        background-color: #4169e1;
+        color : #fff;
+        cursor: pointer;
+        font-weight: bold;
+        &:hover{
+            box-shadow: 0 0 5px 0 #888;
+        }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.update{
+
+    h1{
+        text-align: center;
+        color : #444 ;
+        padding: 3rem 1rem 2rem;
+    }
+
+    &__inputs{
+        width: 80%;
+        margin: auto;
+        input{
+            width: 100%;
+            padding: 0.7rem;
+            margin : 1rem 0 ;
+        }
+    }
+    &__btn{
+        width : 80%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        button{
+            padding: 0.7rem;
+            color : #fff ;
+            background-color: blue;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

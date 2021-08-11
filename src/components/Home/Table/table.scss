@@ -1,0 +1,68 @@
+.table {
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  >table{
+
+      width: 100%;
+      margin: auto;
+      box-shadow: 0 0 10px 0 #999;
+      border-radius: 5px;
+      padding: 5px;
+      overflow-x: scroll;
+      tr{
+          padding: 1rem ;
+          td,th{
+              padding: 1rem 0.4rem;
+              border-bottom: solid 1px #999;
+              text-align: left;
+          }
+          .update{
+              all : unset ;
+              padding: 5px;
+              background-color: #4169E1;
+              border-radius: 3px;
+              a{
+                  all : unset ;
+                  color : #fff ;
+                  cursor: pointer;
+              }
+          }
+          .delete{
+              all : unset ;
+              padding: 5px;
+              background-color: tomato;
+              border-radius: 3px;
+              color : #fff;
+              cursor: pointer;
+          }
+          
+      }
+
+    
+  }
+  button.multi-delete{
+      all : unset ;
+    background-color: red;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px -1px #444;
+    border-radius: 5px;
+}
+button.send-mail{
+    all : unset ;
+    float: right;
+    background-color: green;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px -1px #444;
+    border-radius: 5px;
+}
+
+}
